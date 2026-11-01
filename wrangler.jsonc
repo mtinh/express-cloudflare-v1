@@ -1,9 +1,15 @@
 {
-    "$schema": "./node_modules/wrangler/config-schema.json",
-    "name": "express-cloudflare-v1",
-    "main": "worker.js",
-    "compatibility_date": "2026-11-01",
-    "compatibility_flags": [
-        "nodejs_compat"
-    ]
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "express-cloudflare-v1",
+	"main": "worker.js",
+	"compatibility_date": "2026-11-01",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"hyperdrive": [
+		{
+			"binding": "HYPERDRIVE",
+			"id": "807bff0d7a3445fa83c0c3a0029e5132"
+		}
+	]
 }

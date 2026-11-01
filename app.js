@@ -61,14 +61,16 @@ app.use("/api/v1", categoryProductRoutes);
 app.use("/api/v1", commentRoutes);
 app.use("/api/v1", productRoutes);
 
-// ========== Các route cần đăng nhập mới được truy cập ==========
-app.use("/api/v1", authMiddleware, dashboardRoutes);
-app.use("/api/v1", authMiddleware, userRoutes);
-
 // API YOUTUBE
 app.use("/api/v1", detailChannelRoutes);
 app.use("/api/v1", listChannelRoutes);
 app.use("/api/v1", updateChannelRoutes);
+
+// ========== Các route cần đăng nhập mới được truy cập ==========
+app.use("/api/v1", authMiddleware, dashboardRoutes);
+app.use("/api/v1", authMiddleware, userRoutes);
+
+
 
 
 
