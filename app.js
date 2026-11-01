@@ -75,9 +75,4 @@ app.use("/api/v1", updateChannelRoutes);
 
 
 
-app.listen(PORT, () => {
-    console.log(`Server: http://localhost:${PORT}`);
-});
-
-
 export default app;
