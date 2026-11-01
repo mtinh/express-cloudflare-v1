@@ -1,6 +1,6 @@
 {
     "$schema": "./node_modules/wrangler/config-schema.json",
-    "name": "express-cloudflare",
+    "name": "express-cloudflare-v1",
     "main": "worker.js",
     "compatibility_date": "2026-11-01",
     "compatibility_flags": [
